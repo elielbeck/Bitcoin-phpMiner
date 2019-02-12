@@ -13,8 +13,8 @@ require_once(dirname(__file__) . '/miner.php');
 set_time_limit(0);
 
 // Example
-$host = 'pit.deepbit.net';
-$port = 8332;
+$host = 'stratum+tcp://stratum.slushpool.com';
+$port = 3333;
 $user = 'username';
 $pass = 'password';
 
